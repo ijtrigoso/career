@@ -28,9 +28,6 @@
 						<a href="https://www.linkedin.com/in/isaacjtrigoso/" class="icon brands fa-linkedin"><span>LinkedIn</span></a>
 					</nav>
 
-				<!-- Main -->
-					<div id="main">
-
 						<!-- Me -->
 							<article id="home" class="panel intro">
 								<header>
@@ -296,7 +293,7 @@
 								<header>
 									<h2>Contact Me</h2>
 								</header>
-								<form method="post">
+								<form action="{{ url_for('send') }}" method="post">
 									<div>
 										<div class="row">
 											<div class="col-6 col-12-medium">
@@ -318,8 +315,6 @@
 									</div>
 								</form>
 							</article>
-
-						</div>
 
 						<!-- Study -->
 							<article id="study" class="panel">
@@ -371,6 +366,8 @@
 								</div>
 							</article>
 
+					</div>
+
 				<!-- Footer -->
 					<div id="footer">
 						<ul class="copyright">
@@ -379,8 +376,7 @@
 					</div>
 
 			</div>
-
-		<!-- Scripts -->
+	<!-- Scripts -->
 			<script src="static/js/jquery.min.js"></script>
 			<script src="static/js/browser.min.js"></script>
 			<script src="static/js/breakpoints.min.js"></script>
