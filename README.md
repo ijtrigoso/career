@@ -1,2 +1,2 @@
-## -- Welcome to my Repo! --
-- Here you will find my personal portfolio project which includes my career history, study paths, certifications and completed projects.
+## ----- Welcome to my Resume Repo ----- 
+Here lives my personal website hosted by GitHub Pages. The site can be found at https://isaac-trigoso-resume.me/
