@@ -36,7 +36,7 @@
 							<article id="home" class="panel intro">
 								<header>
 									<h1>Isaac Trigoso</h1>
-									<p>Experienced Programmer, Cloud Engineer, and Security Professional</p>
+									<p>Platform Engineer, Cloud Engineer, Python Specialist and Security Professional</p>
 								</header>
 								<a href="#work" class="jumplink pic">
 									<span class="arrow icon solid fa-chevron-right"><span>Work History</span></span>
@@ -64,7 +64,7 @@
 												<div class="col p-4 d-flex flex-column position-static">
 													<button class="accordion-button accordion-header accordion-button-active-bg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 														<h3 class="mb-0">
-															Solutions Systems Engineer I
+															Platform Engineer (Solutions System Engineer)
 														</h3>
 														<div class="mb-1 text-body-secondary"><i>Nov 2023 - Present</i></div>
 													</button>
@@ -79,73 +79,84 @@
 																</p>
 																<ul>
 																	<p></p>
-																	<b>Solutions Engineering and Automation:</b>
+																	<b>Engineering and Automation:</b>
 																	<li>
-																		Own the architecture, security, deployment, and operational support of NOC-BOT2, a Python-based ChatOps 
-																		platform supporting incident response, operational automation, and secure enterprise communications.
+																		Own NOC-BOT2, a Python-based production ChatOps platform integrating Slack, ServiceNow, SnapLogic, 
+																		xMatters, BigPanda, Microsoft Teams, Jenkins, AWS RDS, and enterprise APIs to automate 
+																		incident-response workflows.
 																	</li>
 																	<li>
-																		Engineered and secured AWS infrastructure supporting containerized applications hosted on Amazon EKS, 
-																		integrating RDS MySQL, Secrets Manager, API Gateway, VPC Endpoints, S3, and enterprise APIs while 
-																		enforcing secure connectivity and access-control standards.
+																		Optimized automated orchestration workflows to reduce incident-channel creation latency by over 83% 
+																		(from 3+ minutes to under 30 seconds), accelerating cross-functional coordination and critical response times.
 																	</li>
 																	<li>
-																		Led secure application deployments across production and non-production environments, 
-																		performing release validation, configuration reviews, access-control verification, and 
-																		deployment governance activities.
+																		Support isolated production and non-production deployments across Amazon EKS clusters, Kubernetes namespaces, 
+																		and RDS databases; troubleshooting workloads and perform controlled pod recovery using Skuba and kubectl.
 																	</li>
 																	<li>
-																		Investigated and resolved cloud networking and security issues involving Kubernetes workloads, 
-																		AWS Security Groups, VPC Endpoints, proxy-controlled egress, encrypted HTTPS communications, and 
-																		database connectivity controls.
+																		Implement Jenkins build, deployment, and operational-support pipelines for application releases, 
+																		authorized-user provisioning, incident-channel lifecycle automation, xMatters notifications, and regional smoke testing.
 																	</li>
 																	<li>
-																		Developed and maintained secure API integrations utilizing OAuth authentication, Slack APIs, 
-																		Secrets Manager, and enterprise services to automate incident-handling workflows while protecting 
-																		sensitive operational data. 
+																		Co-administer the primary GitHub repository, manage protected branches and contributor access, 
+																		review changes, and maintain automated Jenkins build and deployment workflows. Leading production 
+																		and non-production release validation, configuration review, access-control verification, troubleshooting, 
+																		and deployment governance for application changes.
 																	</li>
 																	<li>
-																		Reduced incident-channel creation time from approximately 60 seconds to 10 seconds and 
-																		escalation-request processing from approximately 30 seconds to under 10 seconds. 
+																		Secured Slack connectivity through Socket Mode and WebSockets, removing the need for a public HTTP 
+																		request endpoint while preserving event-driven application functionality.
 																	</li>
 																	<li>
-																		Designed automated incident-response workflows that provision response resources, enforce 
-																		operational standards, and deliver timely notifications to incident stakeholders and leadership 
-																		teams.
+																		Implemented authorization controls that validate users, channels, and commands against secured 
+																		application records before privileged ChatOps functions execute.
 																	</li>
 																	<li>
-																		Developed Infrastructure as Code (IaC) solutions using YAML to provision and manage AWS network 
-																		security controls, enabling secure communication between application services and critical resources 
-																		such as RDS MySQL, Secrets Manager, VPC Endpoints, API Gateway, and S3. Implemented least-privilege 
-																		network access and secure service integration across cloud environments.
+																		Engineered AWS connectivity and access controls using IAM, Secrets Manager, security groups, VPC endpoints, 
+																		proxy allowlists, API Gateway, S3, and RDS for production and non-production integrations.
 																	</li>
 																	<li>
-																		Developed Jenkins automation supporting compliance validation, xMatters notification testing, 
-																		Slack administration controls, and operational governance workflows, reducing manual administrative effort 
-																		and improving consistency.
+																		Coordinated architecture and security reviews for Slack OAuth scopes, ServiceNow APIs, BigPanda, 
+																		Microsoft Teams, API VPC endpoints, and the SIE AI Gateway across production and non-production environments.
 																	</li>
 																	<li>
-																		Migrated ServiceNow integrations from Workato to SnapLogic while preserving authentication controls, 
-																		data integrity, and operational security requirements.
+																		Migrated application data access to SQLAlchemy 2.0, refactoring dozens of database interactions and 
+																		improving maintainability of the application persistence layer.
 																	</li>
 																	<li>
-																		Automated on-call notifications, backup assignments, and Slack User Group updates for more than 50 internal teams.
+																		Implemented distributed tracing and centralized logging across microservices, reducing the mean time to 
+																		resolution (MTTR) for API integration issues by providing deep visual telemetry into event-driven workflows. 
 																	</li>
 																	<li>
-																		Administered enterprise notification and escalation platforms supporting secure communications, major incident 
-																		coordination, and high-volume operational events across global teams.
+																		Authored operational runbooks and architecture documentation covering Kubernetes recovery, Jenkins support 
+																		pipelines, authorization management, integrations, security approvals, and user troubleshooting.
+																	</li>
+																	
+																	<p></p>
+																	<b>Python Development and Integrations:</b>
+																	<li>
+																		Engineered a modular, object-oriented Python codebase utilizing strict Separation of Concerns to isolate 
+																		application workflows. Significantly improving code maintainability and cross-component integrations.
 																	</li>
 																	<li>
-																		Partner with cross-functional engineering and operations teams to gather requirements, conduct UAT, integrate
-																		 new functionality, and enhance production workflows.
+																		Designed a high-concurrency, event-driven backend utilizing multi-threading to orchestrate asynchronous 
+																		lifecycle tasks with isolated telemetry logging.
 																	</li>
 																	<li>
-																		Build and support the application using Python, GitHub, Docker, Jenkins, AWS EKS, AWS Secrets Manager, Amazon 
-																		RDS for MySQL, Slack APIs, and SnapLogic. 
+																		Built scheduled services that evaluate xMatters rotations every five minutes and update Slack messages, channel 
+																		topics, user groups, and access data with current on-call information.
 																	</li>
 																	<li>
-																		Maintain technical documentation covering application support, system architecture, network maps, database schemas, 
-																		data flows, deployments, and custom commands.
+																		Integrated Microsoft Teams bridge creation through Power Automate, coordinating service-account access, 
+																		proxy configuration, security approvals, and production rollout.
+																	</li>
+																	<li>
+																		Automated incident-channel creation from ServiceNow records, including Slack Canvas provisioning, channel controls, 
+																		incident-status updates, change reporting, paging workflows, and channel archival.
+																	</li>
+																	<li>
+																		Developed BigPanda and ServiceNow enrichment workflows that extract incident and alert links, inspect alert data, 
+																		and publish investigation context into operational Slack threads.
 																	</li>
 																</ul>
 															</p>
